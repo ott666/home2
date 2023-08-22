@@ -36,7 +36,7 @@ const SobreSection = () => {
                     font-thin
                     text-[98px]
                     '>
-                        X?
+                        10
                     </span>
                     <span id='textoExperiencia'
                     className={`
@@ -50,7 +50,7 @@ const SobreSection = () => {
                     <p id='paragraphDiv1'
                     className={`
                     text-sm`}>
-                       Há mais de x anos, a Home Health Ribeirão oferece cuidados domiciliares com expertise e comprometimento.
+                       Há mais de 10 anos, a Home Health Ribeirão oferece cuidados domiciliares com expertise e comprometimento.
                     </p>
 
                 </div>
