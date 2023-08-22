@@ -63,7 +63,7 @@ export default function CtaServico(props:any){
                             3xl:text-[72px]
 
                         `}> 
-                               {props.servico.ctaTitle}
+                               {props.ctaTitle}
                         </h1>
 
                         <p id='paragraphHero' 
@@ -173,7 +173,7 @@ export default function CtaServico(props:any){
                     objectFit:'cover',
                     zIndex:'-2'
                    }}
-                   src={`/services/${props.servico.pastaFotos}}/img2.png`} fill={true} alt='bg'/>
+                   src={`/services/${props.pastaFotos}}/img2.png`} fill={true} alt='bg'/>
                 </div>
             </div>
         
