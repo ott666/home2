@@ -63,7 +63,7 @@ export default function CtaServico(props:any){
                             3xl:text-[72px]
 
                         `}> 
-                               {props.servico.title}
+                               {props.servico.ctaTitle}
                         </h1>
 
                         <p id='paragraphHero' 
@@ -78,7 +78,7 @@ export default function CtaServico(props:any){
                                 xl:text-[24px]
                                 3xl:text-[28px] 
                         `}>
-                            Entendemos que cada pessoa é única, por isso adaptamos nossos cuidados para atender às necessidades individuais.
+                            {props.servico.ctaText}
                         </p>
 
                         <div 
@@ -173,7 +173,7 @@ export default function CtaServico(props:any){
                     objectFit:'cover',
                     zIndex:'-2'
                    }}
-                   src={`/services/consulta/img2.png`} fill={true} alt='bg'/>
+                   src={`/services/${props.servico.pastaFotos}}/img2.png`} fill={true} alt='bg'/>
                 </div>
             </div>
         
